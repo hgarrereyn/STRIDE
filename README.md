@@ -7,7 +7,7 @@
 
 In our evaluation, STRIDE achieved SOTA performance at variable renaming and retyping on three C/C++ datasets while also being *much faster* than recent transformer-based approaches, without requiring a GPU. In a CPU-only head-to-head, STRIDE is **>40x faster** than [VarBERT](https://github.com/sefcom/VarBERT) and **>210x faster** than [DIRTY](https://github.com/CMUSTRUDEL/DIRTY). When the other systems are provided a NVIDIA L4 GPU, STRIDE is still >5x faster than VarBERT and >25x faster than DIRTY.
 
-Check out our recent paper for a detailed description of the approach and comprehensive evaluation with existing techniques. Below you will find an abbreviated explanation of the approach and details on running our research prototype.
+Check out our recent paper (https://arxiv.org/abs/2407.02733) for a detailed description of the approach and comprehensive evaluation with existing techniques. Below you will find an abbreviated explanation of the approach and details on running our research prototype.
 
 ---
 
